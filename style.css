@@ -1,0 +1,118 @@
+body{
+	background:#1305ea4a;
+}
+.bg {
+  background:#d2d2d4;
+  left: 150px;
+  width: 1600px;
+  height:850px;
+  position: fixed;
+  box-shadow: 0 5px 15px rgba(0,0,0, .3);
+  bottom: 70px;
+  border-radius: 2rem;
+}
+
+.menu {
+  height:50px;
+  width: 1600px;
+  background:#dedfe0;
+  box-shadow: 0 4px 10px rgba(0,0,0, .3);
+  position: fixed;
+  bottom: 870px;
+  left: 150px;
+  border-radius: 2rem;
+
+}
+.unodesktop {
+  position: fixed;
+  font-size: 22px; /* Размер шрифта в процентах */
+  color: black;
+  display: inline-block;
+  font-family: 'dev', cursive;
+  font-weight: bold;
+  bottom: 883px;
+  left: 1350px;
+
+}
+
+.logo {
+  position: fixed;
+  font-size: 32px; /* Размер шрифта в процентах */
+  color: #7205ea;
+  display: inline-block;
+  font-family: 'logo', cursive;
+  font-weight: bold;
+  bottom: 875px;
+  left: 180px;
+
+}
+.foxmessanger {
+  position: fixed;
+  font-size: 22px; /* Размер шрифта в процентах */
+  color: black;
+  display: inline-block;
+  font-family: 'dev';
+  font-weight: bold;
+  bottom: 883px;
+  left: 1550px;
+}
+.UnoSearch {
+  position: fixed;
+  font-size: 22px; /* Размер шрифта в процентах */
+  color: black;
+  display: inline-block;
+  font-family: 'dev';
+  font-weight: bold;
+  bottom: 883px;
+  left: 1150px;
+}
+a {
+	position: relative;
+	color: #E5EFC1;
+	cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+	text-decoration: none; /*убираем подчёркивание*/
+
+}
+a:after {
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 4px; /*задаём ширину линии*/
+	background-color: black; /*задаём цвет линии*/
+	content: "";
+}
+
+a:hover:after,
+a:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #b5b5b5;
+
+}
+@font-face {
+	font-family: 'logo';
+	src: url('intro-black.eot'); /* IE 9 Compatibility Mode */
+	src: url('intro-black.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('intro-black.woff2') format('woff2'), /* Super Modern Browsers */
+		url('intro-black.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('intro-black.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('intro-black.svg#intro-black') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'dev';
+	src: url('intro-black.eot'); /* IE 9 Compatibility Mode */
+	src: url('intro-black.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('intro-black.woff2') format('woff2'), /* Super Modern Browsers */
+		url('intro-black.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('intro-black.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('intro-black.svg#intro-black') format('svg'); /* Chrome < 4, Legacy iOS */
+}

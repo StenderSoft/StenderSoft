@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnoSearch</title>
+</head>
+<body>
+    <style>
+        .search{
+            position: fixed;
+            left:650px;
+            border-radius: 2rem;
+            width: 600px;
+            height:50px;
+            bottom: 450px;
+        }
+        .search1{
+            position: fixed;
+            left:1115px;
+            border-radius: 2rem;
+            width: 140px;
+            height: 51px;
+            bottom: 453px;     
+            border:none;       
+        }
+        .bg{
+            background:#d2d2d4;
+            left: 150px;
+            width: 1600px;
+            height:850px;
+            position: fixed;
+            box-shadow: 0 5px 15px rgba(0,0,0, .6);
+            bottom: 70px;
+            border-radius: 2rem;
+        }
+        body{
+            background: #0595ea4a;
+        }
+        .logo{
+            left:770px;
+            font-size: 64px;
+            color:#7205ea;
+            position: fixed;
+            font-family: "logo";
+            bottom: 600px;
+        }
+        @font-face {
+	font-family: 'logo';
+	src: url('intro-black.eot'); /* IE 9 Compatibility Mode */
+	src: url('intro-black.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('intro-black.woff2') format('woff2'), /* Super Modern Browsers */
+		url('intro-black.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('intro-black.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('intro-black.svg#intro-black') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+    </style>
+    <div class="bg"></div>
+    <input class="search"></input>
+    <button class="search1">Искать</button>
+    <div class="logo">UnoSearch</div>
+</body>
+</html>
